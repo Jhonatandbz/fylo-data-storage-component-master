@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="imageDesk">
+        <img src="./src/images/bg-desktop.png" alt="" class="imageDesk">
+      </div>
+
+        <div class="infos">
+
+          <div class="containerfylo">
+
+            <img src="./src/images/logo.svg" alt="Fylo logo" class="fylo">
+
+            <div class="files">
+              <ul>
+                <li>
+                  <input type="button"  class="icon document">
+                </li>
+                  
+                <li>
+                  <input type="button" class="icon folder">
+                </li>
+
+                <li>
+                  <input type="button" class="icon upload">
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="containerBar">
+
+            <div class="leftSpace">
+              <h1>185</h1> <p>GB Left</p>
+            </div>
+
+            <div class="bar">
+
+              <label for="range">You’ve used <b>815 GB</b> of your storage</label>
+              <input type="range" min="0" max="1000" value="815" name="" id="range" disabled="">
+
+              <div class="size">
+                <p> <b> 0 GB </b></p>
+                <p> <b> 1000 GB </b> </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+    </div>
+  </main>
+
+
+
+
+
+  <!-- You’ve used 815 GB of your storage
+
+  185 GB Left
+  
+  0 GB
+  1000 GB -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
